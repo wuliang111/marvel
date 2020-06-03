@@ -1,0 +1,159 @@
+.header{
+	height: 100px;
+	width: 100%;
+	background-color: #f3f5f7;
+}
+.banner{
+	height: 400px;
+	width: 100%;
+	background-color: #f1b545;
+}
+.middle{
+	height: 1800px;
+	width: 100%;
+	background-color: #f3f5f7;
+}
+.footer{
+	height: 200px;
+	width: 100%;
+	background-color: #000;
+}
+.header>div{
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.banner>div{
+	height: 400px;
+	width: 1200px;
+	margin: 0 auto;
+	background-image: url('../imgs/banner.jpg')
+}
+.middle>div{
+	height: 3350px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.logo{
+	width: 200px;
+	height: 50px;
+	margin: 25px 5px;
+	float: left;
+}
+.header ul{
+	height: 20px;
+	width: 399px;
+	margin: 40px 0px;
+	float: left;
+}
+.header li{
+	width: 133px;
+	margin: 0 auto;
+	float: left;
+	text-indent: 53.3px;
+}
+.header a{
+	font: normal 400 20px Microsoft YaHei;
+	line-height: 20px;
+	color: #000;
+}
+a:hover{
+	color: red;
+}
+.kuang{
+	height: 22px;
+	width: 330px;
+	margin-right: 5px; 
+	margin: 39px 0;
+	float: left;
+}
+.search{
+	height: 20px;
+	width: 298px;
+	border: 1px solid  #de972e;
+	line-height: 20px;
+	float: left;
+}
+.submit{
+	height: 22px;
+	width: 20px;
+	float: left;
+	background: url('../imgs/sousuo.jpg') no-repeat center;
+}
+.denglu{
+	padding-top: 30px; 
+}
+.middle>div>h1{
+	height: 80px;
+	font: normal 700 60px Microsoft YaHei;
+	color: #f1b545;
+	background-color: white;
+	text-align: center;
+	line-height: 60px;
+	padding-top: 10px;
+}
+.daolan{
+	height: 60px;
+	width: 1200px;
+}
+.putong{
+	width: 49px;
+	height: 40px;
+	padding: 10px 125px;
+	margin-top: 5px;
+	line-height: 20px;
+	float: left;
+	border-right: 1px solid #f1b545;
+}
+.daolan ul{
+	background-color: white;
+	margin: 5px auto;
+}
+.daolan a{
+	font: normal 400 20px Microsoft YaHei;
+	color: #f1b545;
+}
+.teshu{
+	width: 49px;
+	height: 40px;
+	padding: 10px 125px;
+	margin-top: 5px;
+	line-height: 20px;
+	float: left;
+	border-right: 1px solid white;
+}
+.hero{
+	width: 560px;
+	height: 300px;
+	margin: 10px 20px;
+	position: relative;
+	float: left;
+}
+.wenzi{
+	position: absolute;
+	top: 10px;
+	left: 160px;
+}
+.wenzi p{
+	font: normal 400 16px Microsoft YaHei;
+	color: #000;
+}
+.wenzi span{
+	font: normal 700 16px Microsoft YaHei;
+}
+.hero h2{
+	font: normal 700 20px Microsoft YaHei;
+	color: #f1b545;
+}
+.footer div{
+	height: 20px;
+	width: 1200px;
+	padding-top: 90px;
+	margin: 0 auto;
+}
+.footer p{
+	font: normal 400 10px Microsoft YaHei;
+	color: white;
+	line-height: 20px;
+	text-align: center;
+}
